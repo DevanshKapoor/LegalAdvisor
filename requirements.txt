@@ -1,0 +1,13 @@
+torch
+transformers
+accelerate
+bitsandbytes
+datasets
+sentence-transformers
+faiss-cpu
+pypdf
+huggingface_hub
+matplotlib
+seaborn
+pandas
+python-dotenv
