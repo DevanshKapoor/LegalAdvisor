@@ -1,10 +1,10 @@
-⚖️ NyayaSetu: Multilingual Legal R-RAG Bot
+# NyayaSetu: Multilingual Legal R-RAG Bot
 
 NyayaSetu ("Justice Bridge") is an AI-powered legal assistant designed to explain complex Indian laws to citizens in their native language (English, Hindi, Punjabi, etc.).
 
 It utilizes a Retrieval-Augmented Generation (RAG) pipeline with a specialized Retriever-Reranker architecture to ensure high accuracy when citing legal sections (e.g., Motor Vehicles Act, BNS, Consumer Rights).
 
-🚀 Features
+# Features
 
 Multilingual Support: Answers queries in English, Hindi, Punjabi, Tamil, etc.
 
@@ -18,7 +18,7 @@ Dynamic Knowledge: Loads knowledge directly from PDF documents.
 
 Performance Metrics: Built-in visualization of latency and retrieval accuracy.
 
-📂 Project Structure
+# Project Structure
 
 nyayasetu-rag-bot/
 ├── database/ # ⚠️ Put your Legal PDFs here
@@ -49,13 +49,13 @@ HF_TOKEN=hf_your_secret_token_here
 Add Documents:
 Place your legal PDF documents (e.g., Consumer_Act.pdf, Motor_Vehicles.pdf) inside the database/ folder.
 
-🏃‍♂️ Usage
+# Usage
 
 Run the main script to initialize the bot, run performance tests, and start the chat loop:
 
 python main.py
 
-📊 Performance Metrics
+# Performance Metrics
 
 When you run main.py, the system automatically generates a performance report image (performance_metrics.png) showing:
 
@@ -65,7 +65,7 @@ Retrieval Recall Rates
 
 Knowledge Base Distribution
 
-🧠 Architecture
+# Architecture
 
 Ingestion: PDFs are parsed and chunked into paragraphs.
 
